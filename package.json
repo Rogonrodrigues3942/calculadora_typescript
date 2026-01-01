@@ -1,0 +1,37 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Projeto de desenvolvimento de calculadora em TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch --style=compressed assets/scss : assets/css",
+    "tsc": "tsc -w",
+    "dev": "concurrently \"npm run sass\" \"npm run tsc\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rogonrodrigues3942/mastering_typescript.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "sass",
+    "css3",
+    "javascript",
+    "typescript",
+    "html",
+    "html5"
+  ],
+  "author": "Rogério Gonçalves Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rogonrodrigues3942/mastering_typescript/issues"
+  },
+  "homepage": "https://github.com/Rogonrodrigues3942/mastering_typescript#readme",
+  "devDependencies": {
+    "concurrently": "5.3.0",
+    "sass": "1.32.8",
+    "typescript": "4.1.3"
+  }
+}
